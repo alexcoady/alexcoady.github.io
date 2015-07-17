@@ -1,4 +1,26 @@
-{% if site.github_username %}{{ site.github_username }}{% endif %}
-{% if site.twitter_username %}{{ site.twitter_username }}{% endif %}
-{{ site.description }}
-{{ site.email }}
+
+
+<div class="Footer Wrapper">
+  <div class="Footer-inner Wrapper-inner">
+    {% if site.github_username %}
+      <div>
+        {{ site.github_username }}
+      </div>
+    {% endif %}
+
+    {% if site.twitter_username %}
+      <div>
+        {{ site.twitter_username }}
+      </div>
+    {% endif %}
+
+    <div>
+      {{ site.description }}
+    </div>
+
+    <div>
+      {{ site.email }}
+    </div>
+
+  </div>
+</div>

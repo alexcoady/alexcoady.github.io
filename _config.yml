@@ -11,3 +11,10 @@ github_username:  alexcoady
 
 # Build settings
 markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "posts"
+    values:
+      excerpt_separator: <!--more-->

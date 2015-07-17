@@ -1,0 +1,14 @@
+<div class="Grid Grid--1to2to3">
+  <div class="Grid-inner">
+    {% for post in site.posts %}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="Grid-item">
+        <div class="Thumbnail">
+          <h3>{{ post.title }}</h3>
+          {% if post.client %}
+            <h4>{{ post.client }}</h4>
+          {% endif %}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>

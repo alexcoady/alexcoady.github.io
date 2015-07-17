@@ -1,0 +1,41 @@
+/**
+ *  Grids are used to lay out content
+ *
+ *  @module Grid
+ */
+.Grid {
+  width: 100%;
+}
+
+.Grid-inner {
+  margin: 0 ($spacing * -.5) ($spacing * -1);
+}
+
+.Grid-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+
+  padding: 0 ($spacing / 2);
+  margin-bottom: $spacing;
+}
+
+
+
+
+/**
+ *  @module Grid
+ *  @modifier 1to2to3
+ */
+.Grid--1to2to3 {
+  .Grid-item {
+
+    @media #{$mq-widerThanTablet} {
+      width: (100/2) + 0%;
+    }
+
+    @media #{$mq-widerThanTabletLandscape} {
+      width: (100/3) + 0%;
+    }
+  }
+}
