@@ -1,0 +1,33 @@
+.Header {
+  padding: 2.5em 0;
+  height: 2.5em;
+}
+
+.Header-inner {
+  position: relative;
+}
+
+.Header-logo {
+  display: block;
+
+  img {
+    display: block;
+  }
+}
+
+.Header-menu {
+  top: 0;
+  right: 0;
+  height: 100%;
+  position: absolute;
+
+  a {
+    display: block;
+    float: left;
+    height: 2.5em;
+    line-height: 2.5em;
+    margin-left: 1.5em;
+    text-decoration: none;
+    color: inherit;
+  }
+}
