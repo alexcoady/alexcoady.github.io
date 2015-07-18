@@ -1,5 +1,56 @@
 ---
 layout: default
 ---
-{{ page.title }}
-{{ content }}
+
+<div class="Post">
+
+  <div class="Post-intro">
+    <div class="Wrapper">
+      <div class="Wrapper-inner">
+        <div class="PostIntro">
+          <div class="PostIntro-inner">
+            <div class="Post-client">
+              <h1 class="Title">{{ page.client }}</h1>
+            </div>
+            <div class="Post-excerpt">
+              <h3 class="Title">{{ page.excerpt }}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="Post-details">
+
+    <div class="Wrapper">
+      <div class="Wrapper-inner">
+        <div class="Post-title">
+          <h2 class="Title">{{ page.title }}</h2>
+        </div>
+        <div class="Post-workedOn">
+          {% if page.role and page.agency %}
+            Worked as <a class="Link">{{ page.role }}</a> while at <a class="Link">{{ page.agency }}</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="Post-content">
+
+    <div class="Wrapper">
+      <div class="Wrapper-inner">
+        <div class="PostContent">
+          <div class="PostContent-inner">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,41 @@
+.Post {}
+
+.Post-intro {
+  margin-bottom: $spacing;
+  text-align: center;
+}
+
+.Post-client {
+
+  border-bottom: 2px solid;
+  padding-bottom: 5px;
+  margin-bottom: $spacing / 2;
+
+  @media #{$mq-widerThanTablet} {
+    margin-bottom: $spacing * 1.5;
+  }
+
+  .Title {
+    font-weight: 600;
+  }
+}
+
+.Post-excerpt {
+
+  .Title {
+    font-weight: 600;
+    font-size: 1.2em;
+    max-width: 15em;
+    line-height: 1.5em;
+
+    @media #{$mq-widerThanTablet} {
+      font-size: 1.5em;
+    }
+  }
+}
+
+.Post-details {
+  margin-bottom: $spacing;
+}
+
+.Post-content {}

@@ -1,6 +1,11 @@
 .Wrapper {
-  padding-left: 2.5em;
-  padding-right: 2.5em;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+
+  @media #{$mq-widerThanTablet} {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
 }
 
 .Wrapper-inner {

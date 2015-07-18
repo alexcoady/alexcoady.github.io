@@ -1,12 +1,21 @@
 <div class="Grid Grid--1to2to3">
   <div class="Grid-inner">
     {% for post in site.posts %}
-      <a href="{{ post.url | prepend: site.baseurl }}" class="Grid-item">
-        <div class="Thumbnail">
-          <h3>{{ post.title }}</h3>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="Grid-item ProjectSummary">
+        <div class="ProjectSummary-thumbnail">
+          <div class="Thumbnail">
+            <div class="Thumbnail-inner"></div>
+          </div>
+        </div>
+        <div class="ProjectSummary-details">
           {% if post.client %}
-            <h4>{{ post.client }}</h4>
+            <div class="ProjectSummary-client">
+              <h3 class="Title Title--sub">{{ post.client }}</h3>
+            </div>
           {% endif %}
+          <div class="ProjectSummary-name">
+            <h4 class="Title">{{ post.title }}</h4>
+          </div>
         </div>
       </a>
     {% endfor %}

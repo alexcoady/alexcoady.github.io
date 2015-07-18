@@ -1,7 +1,24 @@
-html, body {
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 
+html, body {
+  font-size: 16px;
 }
 
 body {
   font-family: $font-family;
+  line-height: 1.4em;
+}
+
+.Link {
+  padding-bottom: 2px;
+  border-bottom: 2px solid;
+  cursor: pointer;
+  transition: color .15s;
+  font-weight: 600;
+
+  &:hover {
+    color: $color-orange;
+  }
 }

@@ -9,18 +9,18 @@
 
 .Grid-inner {
   margin: 0 ($spacing * -.5) ($spacing * -1);
+  overflow: hidden;
 }
 
 .Grid-item {
-  display: inline-block;
+  display: block;
+  float: left;
   vertical-align: top;
   width: 100%;
 
   padding: 0 ($spacing / 2);
   margin-bottom: $spacing;
 }
-
-
 
 
 /**

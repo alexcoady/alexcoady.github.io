@@ -1,0 +1,26 @@
+.ProjectSummary {
+  text-decoration: none;
+  color: inherit;
+}
+
+.ProjectSummary-thumbnail {
+  margin-bottom: $spacing / 3;
+}
+
+.ProjectSummary-details {}
+
+.ProjectSummary-client {
+
+  margin-bottom: $spacing / 5;
+
+  .Title {
+    font-weight: 600;
+  }
+}
+
+.ProjectSummary-name {
+
+  .Title {
+
+  }
+}
