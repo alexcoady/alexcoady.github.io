@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tumblr
+title:  Tumblr theme redesign
 slug: persol
 client: Persol
 date: 2014-08-15 00:00:00
