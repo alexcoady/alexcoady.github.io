@@ -1,41 +1,33 @@
 ---
 layout: post
-title:  "The Other Side"
+title:  The Other Side
+suffix: honda
 client: Honda
 date:   2014-10-31 00:00:00
 categories: javascript film
 excerpt: An interactive film with a twist, a dark-side story that mimics the light
 role: Lead front-end developer
 agency: Stinkdigital
+contrast: true
 ---
-<!-- more -->
+
 Interactive video experience for Honda Civic Type R, allowing the user to watch a beautifully directed film with a twist - the whole film has been mimicked by the Civic Type R in a ‘dark side’ story that can be triggered by pressing the R button.
 
 ### YouTube landing screen
 
 The site lives within a YouTube gadget on a bunch of Honda’s global channels - it’s disguised as a normal player so the user is genuinely surprised and delighted when they find out they can interact with the film.
 
-
-
 ### Video experience
 
-
-
 ### Video while pressing and holding the 'R’ key
-
-
 
 ### Video ending
 
 Both worlds meet at the end of the film, and both the Civic and Civic Type R can be seen parked by each-other.
 
-
-
 ### Interactive slider
 
 A smooth dragging motion allows the user to explore both sides of the Civic, and hopefully replay the film to see what they might have missed the first time round.
-
-
 
 ### The tech side
 
