@@ -21,6 +21,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-blend-mode: screen;
   background-blend-mode: exclusion;
+
+  transition: background-blend-mode 35s;
+
+  .Thumbnail:hover & {
+    background-blend-mode: screen;
+  }
 }
