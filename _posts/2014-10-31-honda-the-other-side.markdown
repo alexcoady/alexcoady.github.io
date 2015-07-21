@@ -16,10 +16,6 @@ Interactive video experience for Honda Civic Type R, allowing the user to watch 
 
 The site lives within a YouTube gadget on a bunch of Honda’s global channels - it’s disguised as a normal player so the user is genuinely surprised and delighted when they find out they can interact with the film.
 
-### Video experience
-
-### Video while pressing and holding the 'R’ key
-
 ### Video ending
 
 Both worlds meet at the end of the film, and both the Civic and Civic Type R can be seen parked by each-other.
@@ -36,4 +32,4 @@ On tablet we have a single video (hosted separately) that is double width and ha
 
 The mobile experience is simply a teaser video, however we created some prototypes for an image-sequence version which wasn’t carried through to production in the end.
 
-See the film here: hondatheotherside.com and remember to press 'R’!
+See the film here: [hondatheotherside.com](http://hondatheotherside.com) and remember to press 'R’!

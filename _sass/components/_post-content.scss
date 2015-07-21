@@ -11,12 +11,13 @@
 
   p {
     line-height: 1.875em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.4em;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 1.2em;
     font-weight: 600;
+    // font-size: 2em;
+    margin-bottom: 1.2em;
   }
 
   h1 {}
@@ -27,4 +28,26 @@
   h6 {}
 
   code {}
+
+  a {
+    color: inherit;
+    font: inherit;
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid;
+    transition: color .15s;
+
+    &:hover {
+      color: $color-orange;
+    }
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  strong {
+    font-weight: 600;
+  }
 }
