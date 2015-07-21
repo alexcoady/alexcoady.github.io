@@ -5,6 +5,12 @@
 
     <div class="Chrome">
 
+      {% if page.intro %}
+        <div class="Chrome-intro">
+          {% include intro.html %}
+        </div>
+      {% endif %}
+
       <div class="Chrome-header">
         {% include header.html %}
       </div>

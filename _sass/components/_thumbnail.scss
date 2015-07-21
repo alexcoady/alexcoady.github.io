@@ -17,4 +17,10 @@
   position: absolute;
   top: 0;
   left: 0;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-blend-mode: screen;
+  background-blend-mode: exclusion;
 }

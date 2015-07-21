@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<div class="Post{% if page.contrast %} is-highContrast{% endif %}">
+<div class="Post">
 
   <div class="Post-intro">
     <div class="Wrapper">
       <div class="Wrapper-inner">
         <div class="PostIntro">
-          <div class="PostIntro-inner" style="background-image: url({{ "/main.jpg" | prepend: page.suffix | prepend: page.imagesrc }});">
+          <div class="PostIntro-inner" style="background-image: url({{ "/main.jpg" | prepend: page.slug | prepend: page.imagesrc }});">
             <div class="Post-client">
               <h1 class="Title">{{ page.client }}</h1>
             </div>

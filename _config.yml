@@ -18,6 +18,7 @@ defaults:
       path: ""
     values:
       imagesrc: "/images/"
+      intro: true
   -
     scope:
       path: ""
@@ -25,3 +26,4 @@ defaults:
     values:
       excerpt_separator: <!--more-->
       imagesrc: "/images/posts/"
+      intro: false

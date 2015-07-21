@@ -17,14 +17,6 @@
 
   .Title {
     font-weight: 600;
-
-    .Post.is-highContrast & {
-      text-shadow:
-       -1px -1px 0 $color-white,
-        1px -1px 0 $color-white,
-        -1px 1px 0 $color-white,
-         1px 1px 0 $color-white;
-    }
   }
 }
 
@@ -35,14 +27,6 @@
     font-size: 1.2em;
     max-width: 15em;
     line-height: 1.5em;
-
-    .Post.is-highContrast & {
-      text-shadow:
-       -1px -1px 0 $color-white,
-        1px -1px 0 $color-white,
-        -1px 1px 0 $color-white,
-         1px 1px 0 $color-white;
-    }
 
     @media #{$mq-widerThanTablet} {
       font-size: 1.5em;

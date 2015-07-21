@@ -4,7 +4,7 @@
       <a href="{{ post.url | prepend: site.baseurl }}" class="Grid-item ProjectSummary">
         <div class="ProjectSummary-thumbnail">
           <div class="Thumbnail">
-            <div class="Thumbnail-inner" {% if post.thumbnail %}style="background-image: url();"{% endif %}></div>
+            <div class="Thumbnail-inner" style="background-image: url({{ "/thumb.jpg" | prepend: post.slug | prepend: post.imagesrc }});"></div>
           </div>
         </div>
         <div class="ProjectSummary-details">
