@@ -1,52 +1,49 @@
 <div class="Footer Wrapper">
   <div class="Footer-inner Wrapper-inner">
-    {% if site.github_username %}
-      <div class="Footer-github">
-        <a target="_blank" href="http://github.com/{{ site.github_username }}">
+
+    <div class="Footer-links">
+      {% if site.github_username %}
+        <a title="@{{ site.github_username }} on Github" target="_blank" href="http://github.com/{{ site.github_username }}">
           <i class="Icon Icon--github"></i>
           <span class="u-sr-only">{{ site.github_username }} on Github</span>
         </a>
-      </div>
-    {% endif %}
+      {% endif %}
 
-    {% if site.stackoverflow_username and site.stackoverflow_url %}
-      <div class="Footer-stackoverflow">
-        <a target="_blank" href="{{ site.stackoverflow_url }}">
+      {% if site.stackoverflow_username and site.stackoverflow_url %}
+        <a title="@{{ site.stackoverflow_username }} on Stackoverflow" target="_blank" href="{{ site.stackoverflow_url }}">
           <i class="Icon Icon--stackoverflow"></i>
           <span class="u-sr-only">{{ site.stackoverflow_username }} on Stackoverflow</span>
         </a>
-      </div>
-    {% endif %}
+      {% endif %}
 
-    {% if site.codepen_username %}
-      <div class="Footer-codepen">
-        <a target="_blank" href="http://codepen.io/{{ site.codepen_username }}">
+      {% if site.codepen_username %}
+        <a title="@{{ site.codepen_username }} on Codepen" target="_blank" href="http://codepen.io/{{ site.codepen_username }}">
           <i class="Icon Icon--codepen"></i>
           <span class="u-sr-only">{{ site.codepen_username }} on Codepen</span>
         </a>
-      </div>
-    {% endif %}
+      {% endif %}
 
-    {% if site.twitter_username %}
-      <div class="Footer-twitter">
-        <a target="_blank" href="http://twitter.com/{{ site.twitter_username }}">
+      {% if site.twitter_username %}
+        <a title="@{{ site.twitter_username }} on Twitter" target="_blank" href="http://twitter.com/{{ site.twitter_username }}">
           <i class="Icon Icon--twitter"></i>
           <span class="u-sr-only">{{ site.twitter_username }} on Twitter</span>
         </a>
-      </div>
-    {% endif %}
+      {% endif %}
 
-    {% if site.email %}
-      <div class="Footer-email">
-        <a href="mailto:{{ site.email }}">
+      {% if site.email %}
+        <a title="Email me: {{ site.email }}" href="mailto:{{ site.email }}">
           <i class="Icon Icon--email"></i>
           <span class="u-sr-only">Email me: {{ site.email }}</span>
         </a>
-      </div>
-    {% endif %}
+      {% endif %}
+    </div>
 
     <div class="Footer-description">
-      {{ site.description }}
+      <p>{{ site.description }}</p>
+    </div>
+
+    <div class="Footer-copyright">
+      <p>{{ site.copyright }}</p>
     </div>
 
   </div>

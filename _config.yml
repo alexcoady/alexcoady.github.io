@@ -3,6 +3,7 @@ title: Alex Coady
 email: alex@coady.me
 description: > # this means to ignore newlines until "baseurl:"
   Alex Coady is a web developer based in London, UK.
+copyright: "&copy; Alex Coady 2015"
 baseurl: "" # the subpath of your site, e.g. /blog/
 imagesrc: "/images/"
 url: "http://coady.me" # the base hostname & protocol for your site
