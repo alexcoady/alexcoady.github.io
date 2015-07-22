@@ -24,7 +24,7 @@
   background-blend-mode: exclusion;
   transition: all .35s;
 
-  .ProjectSummary:hover & {
+  .ProjectSummary-inner:hover & {
     background-color: $color-black;
   }
 }

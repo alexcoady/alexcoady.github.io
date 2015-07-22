@@ -1,23 +1,25 @@
 <div class="Grid Grid--1to2to3">
   <div class="Grid-inner">
     {% for post in site.posts %}
-      <a href="{{ post.url | prepend: site.baseurl }}" class="Grid-item ProjectSummary">
-        <div class="ProjectSummary-thumbnail">
-          <div class="Thumbnail">
-            <div class="Thumbnail-inner" style="background-image: url({{ "/thumb.jpg" | prepend: post.slug | prepend: post.imagesrc }});"></div>
-          </div>
-        </div>
-        <div class="ProjectSummary-details">
-          {% if post.client %}
-            <div class="ProjectSummary-client">
-              <h3 class="Title Title--sub">{{ post.client }}</h3>
+      <div class="Grid-item ProjectSummary">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="ProjectSummary-inner">
+          <div class="ProjectSummary-thumbnail">
+            <div class="Thumbnail">
+              <div class="Thumbnail-inner" style="background-image: url({{ "/thumb.jpg" | prepend: post.slug | prepend: post.imagesrc }});"></div>
             </div>
-          {% endif %}
-          <div class="ProjectSummary-name">
-            <h4 class="Title">{{ post.title }}</h4>
           </div>
-        </div>
-      </a>
+          <div class="ProjectSummary-details">
+            {% if post.client %}
+              <div class="ProjectSummary-client">
+                <h3 class="Title Title--sub">{{ post.client }}</h3>
+              </div>
+            {% endif %}
+            <div class="ProjectSummary-name">
+              <h4 class="Title">{{ post.title }}</h4>
+            </div>
+          </div>
+        </a>
+      </div>
     {% endfor %}
   </div>
 </div>
