@@ -7,7 +7,10 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 imagesrc: "/images/"
 url: "http://coady.me" # the base hostname & protocol for your site
 twitter_username: coadycodes
-github_username:  alexcoady
+github_username: alexcoady
+stackoverflow_username: alexcoady
+codepen_username: alexcoady
+stackoverflow_url: http://stackoverflow.com/users/687581/alex
 
 # Build settings
 markdown: kramdown
