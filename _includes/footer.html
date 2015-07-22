@@ -2,7 +2,7 @@
   <div class="Footer-inner Wrapper-inner">
     {% if site.github_username %}
       <div class="Footer-github">
-        <a href="http://github.com/{{ site.github_username }}">
+        <a target="_blank" href="http://github.com/{{ site.github_username }}">
           <i class="Icon Icon--github"></i>
           <span class="u-sr-only">{{ site.github_username }} on Github</span>
         </a>
@@ -11,7 +11,7 @@
 
     {% if site.stackoverflow_username and site.stackoverflow_url %}
       <div class="Footer-stackoverflow">
-        <a href="{{ site.stackoverflow_url }}">
+        <a target="_blank" href="{{ site.stackoverflow_url }}">
           <i class="Icon Icon--stackoverflow"></i>
           <span class="u-sr-only">{{ site.stackoverflow_username }} on Stackoverflow</span>
         </a>
@@ -20,7 +20,7 @@
 
     {% if site.codepen_username %}
       <div class="Footer-codepen">
-        <a href="http://codepen.io/{{ site.codepen_username }}">
+        <a target="_blank" href="http://codepen.io/{{ site.codepen_username }}">
           <i class="Icon Icon--codepen"></i>
           <span class="u-sr-only">{{ site.codepen_username }} on Codepen</span>
         </a>
@@ -29,26 +29,24 @@
 
     {% if site.twitter_username %}
       <div class="Footer-twitter">
-        <a href="http://twitter.com/{{ site.twitter_username }}">
+        <a target="_blank" href="http://twitter.com/{{ site.twitter_username }}">
           <i class="Icon Icon--twitter"></i>
           <span class="u-sr-only">{{ site.twitter_username }} on Twitter</span>
         </a>
       </div>
     {% endif %}
 
-
-    {% if site.twitter_username %}
-      <div>
-        {{ site.twitter_username }}
+    {% if site.email %}
+      <div class="Footer-email">
+        <a href="mailto:{{ site.email }}">
+          <i class="Icon Icon--email"></i>
+          <span class="u-sr-only">Email me: {{ site.email }}</span>
+        </a>
       </div>
     {% endif %}
 
-    <div>
+    <div class="Footer-description">
       {{ site.description }}
-    </div>
-
-    <div>
-      {{ site.email }}
     </div>
 
   </div>
