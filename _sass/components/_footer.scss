@@ -18,6 +18,13 @@
     font-size: 1.4em;
     margin-right: 0.5em;
     display: inline-block;
+
+    -webkit-transition: color .15s;
+    transition: color .15s;
+
+    &:hover {
+      color: $color-white;
+    }
   }
 }
 
