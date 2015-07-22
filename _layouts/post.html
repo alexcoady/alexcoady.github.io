@@ -29,11 +29,6 @@ layout: default
         <div class="Post-title">
           <h2 class="Title">{{ page.title }}</h2>
         </div>
-        <div class="Post-workedOn">
-          {% if page.role and page.agency %}
-            Worked as <a class="Link">{{ page.role }}</a> while at <a class="Link">{{ page.agency }}</a>
-          {% endif %}
-        </div>
       </div>
     </div>
 
@@ -45,6 +40,11 @@ layout: default
       <div class="Wrapper-inner">
         <div class="PostContent">
           <div class="PostContent-inner">
+            <p>
+              {% if page.role and page.agency %}
+                Worked as <a class="Link">{{ page.role }}</a> while at <a class="Link">{{ page.agency }}</a>
+              {% endif %}
+            </p>
             {{ content }}
           </div>
         </div>

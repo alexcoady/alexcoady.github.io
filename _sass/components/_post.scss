@@ -9,6 +9,8 @@
 
   border-bottom: 2px solid;
   padding-bottom: 5px;
+  margin-right: 1em;
+  margin-left: 1em;
   margin-bottom: $spacing / 2;
 
   @media #{$mq-widerThanTablet} {
@@ -21,6 +23,9 @@
 }
 
 .Post-excerpt {
+
+  margin-right: 1em;
+  margin-left: 1em;
 
   .Title {
     font-weight: 600;

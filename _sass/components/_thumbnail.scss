@@ -11,7 +11,7 @@
 }
 
 .Thumbnail-inner {
-  background: $color-orange;
+  background-color: $color-orange;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -22,10 +22,9 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-blend-mode: exclusion;
-
-  transition: background-blend-mode 35s;
+  transition: all .35s;
 
   .Thumbnail:hover & {
-    background-blend-mode: screen;
+    background-color: $color-black;
   }
 }
