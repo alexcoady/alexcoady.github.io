@@ -1,14 +1,21 @@
 .Menu {
 
   a {
-    display: block;
-    float: left;
-    height: 2.5em;
-    line-height: 2.5em;
-    margin-left: 1.5em;
+    display: inline-block;
+    // float: left;
+    margin-left: 1em;
+    margin-right: 1em;
+
     text-decoration: none;
     color: inherit;
 
     &.is-active { font-weight: 600; }
+
+    @media #{$mq-widerThanTablet} {
+      height: 2.5em;
+      line-height: 2.5em;
+      margin-left: 1.5em;
+      margin-right: 0;
+    }
   }
 }

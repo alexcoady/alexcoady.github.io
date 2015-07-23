@@ -1,6 +1,10 @@
 .Header {
-  padding: 2.5em 0;
+  padding: 1.5em 0;
   background: $color-orange;
+
+  @media #{$mq-widerThanTablet} {
+    padding: 2.5em 0;
+  }
 }
 
 .Header-inner {
@@ -9,15 +13,31 @@
 
 .Header-logo {
   display: block;
+  margin-bottom: 1.5em;
+
+  @media #{$mq-widerThanTablet} {
+    margin-bottom: 0;
+  }
 
   img {
     display: block;
+    margin: 0 auto;
+
+    @media #{$mq-widerThanTablet} {
+      margin: 0;
+    }
   }
 }
 
 .Header-menu {
-  top: 0;
-  right: 0;
-  height: 100%;
-  position: absolute;
+
+  text-align: center;
+
+  @media #{$mq-widerThanTablet} {
+    top: 0;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    text-align: left;
+  }
 }
