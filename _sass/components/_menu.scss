@@ -8,5 +8,7 @@
     margin-left: 1.5em;
     text-decoration: none;
     color: inherit;
+
+    &.is-active { font-weight: 600; }
   }
 }
