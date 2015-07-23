@@ -1,3 +1,4 @@
+{% assign current_url = page.url | remove: "index.html" %}
 <div class="Header Wrapper">
   <div class="Header-inner Wrapper-inner">
     <div class="Header-logo">
@@ -8,10 +9,12 @@
 
     <div class="Header-menu">
       <div class="Menu">
+        
         {% for nav_page in site.pages %}
 
           {% if nav_page.title %}
-            <a href="{{ nav_page.url }}">{{nav_page.title}}</a>
+            {% assign clean_url = nav_page.url | remove: "index.html" %}
+            <a class="{% if clean_url == current_url %}is-active{% endif %}" href="{{ clean_url }}">{{nav_page.title}}</a>
           {% endif %}
 
         {% endfor %}

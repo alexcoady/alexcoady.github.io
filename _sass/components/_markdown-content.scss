@@ -1,13 +1,13 @@
-.PostContent {}
+.MarkdownContent {}
 
-.PostContent-inner {
+.MarkdownContent-inner {
 
   @media #{$mq-widerThanTablet} {
     width: 66.6%;
   }
 }
 
-.PostContent {
+.MarkdownContent {
 
   p {
     line-height: 1.875em;
@@ -16,9 +16,17 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-weight: 200;
-    font-size: 2em;
-    line-height: 1.1em;
+    font-size: 1.6em;
+    line-height: 1.4em;
     margin-bottom: 1.2em;
+
+    @media #{$mq-widerThanTablet} {
+      font-size: 2em;
+    }
+  }
+
+  h4, h5, h6 {
+    font-size: 1em;
   }
 
   h1 {}
@@ -50,5 +58,19 @@
 
   strong {
     font-weight: 600;
+  }
+
+  ul, ol {
+    margin-bottom: 1.4em;
+  }
+
+  li {
+    line-height: 1.875em;
+    list-style: disc;
+    list-style-position: inside;
+
+    @media #{$mq-widerThanTablet} {
+      list-style-position: outside;
+    }
   }
 }
