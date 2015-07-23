@@ -6,11 +6,16 @@
       </a>
     </div>
 
-    <!-- <div class="Header-menu">
+    <div class="Header-menu">
       <div class="Menu">
-        <a href="">Work</a>
-        <a href="">Contact</a>
+        {% for nav_page in site.pages %}
+
+          {% if nav_page.title %}
+            <a href="{{ nav_page.url }}">{{nav_page.title}}</a>
+          {% endif %}
+
+        {% endfor %}
       </div>
-    </div> -->
+    </div>
   </div>
 </div>

@@ -5,21 +5,29 @@
 
     <div class="Chrome">
 
-      {% if page.intro %}
-        <div class="Chrome-intro">
-          {% include intro.html %}
+      <div class="StickyFooter-wrapper">
+
+        {% if page.intro %}
+          <div class="Chrome-intro">
+            {% include intro.html %}
+          </div>
+        {% endif %}
+
+        <div class="Chrome-header">
+          {% include header.html %}
         </div>
-      {% endif %}
 
-      <div class="Chrome-header">
-        {% include header.html %}
+        <div class="Chrome-content">
+          {{ content }}
+        </div>
+
+        <div class="StickyFooter-push">
+
+        </div>
+
       </div>
 
-      <div class="Chrome-content">
-        {{ content }}
-      </div>
-
-      <div class="Chrome-footer">
+      <div class="Chrome-footer StickyFooter-footer">
         {% include footer.html %}
       </div>
 

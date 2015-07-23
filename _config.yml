@@ -31,3 +31,9 @@ defaults:
       excerpt_separator: <!--more-->
       imagesrc: "/images/posts/"
       intro: false
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page

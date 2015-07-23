@@ -1,0 +1,16 @@
+$footer-height: 175px;
+
+.StickyFooter-wrapper {
+  min-height: 100%;
+  height: auto!important;
+  height: 100%;
+  margin: 0 auto $footer-height*-1;
+}
+
+.StickyFooter-push {
+  height: $footer-height;
+}
+
+.StickyFooter-footer {
+  height: $footer-height;
+}

@@ -1,4 +1,10 @@
-.Chrome {}
+.Chrome {
+  height: 100%;
+}
+
+.Chrome-header {
+  margin-bottom: $spacing;
+}
 
 .Chrome-content {
   overflow: hidden;
