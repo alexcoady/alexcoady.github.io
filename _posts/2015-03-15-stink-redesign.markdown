@@ -2,6 +2,7 @@
 layout: post
 title:  Website redesign
 slug: stink
+project_url: http://stink.co
 client: Stink films
 date: 2015-03-15 00:00:00
 tags: javascript film backbone
@@ -11,7 +12,9 @@ agency:
   name: Stinkdigital
   url: http://stinkdigital.com
 ---
-[Stink](http://stink.co) are the film-arm of the company I work for, and the redesign of their site has been an ongoing project for the past year or so. The previous site had a separately managed version for each office, all of which were to be combined into Stink.co - the go-to site for Stink worldwide.
+[Stink](http://stink.co) are the film-arm of Stinkdigital; the redesign of their site had been an ongoing internal project for a year or so.
+
+The previous site was made from 5 totally independent websites that looked similar. The new website had to merge all these sites into one larger global site that represented all the different regions.
 
 ### The tech side
 

@@ -20,9 +20,9 @@ After a heavy learning curve, and some discovery into using either the Theme bui
 
 ### The tech side
 
-The theme is written using [Tumblr theme tags](https://www.tumblr.com/docs/en/custom_themes) which allowed me to check if the user is viewing an index page (such as the homepage, or a search page) or a permalink page (for a specific post).
+The theme is written using [theme tags](https://www.tumblr.com/docs/en/custom_themes) which allowed me to check if the user is viewing an index page (such as the homepage, or a search page) or a permalink page (for a specific post).
 
-All Javascript is written without a framework, but runs in a similar way to many Backbone projects. Tumblr provide a [HTTP API](https://www.tumblr.com/docs/en/api/v2#posts) which can be used to query posts and blog info; however it cannot provide everything that the Theme tags provide so I settled for a *pjax-like* method of loading new pages in HTML and swapping out content as necessary direction in the DOM.
+All Javascript is written without a framework, but runs in a similar way to many Backbone projects. Tumblr provide a [HTTP API](https://www.tumblr.com/docs/en/api/v2#posts) which can be used to query posts and blog info; however it cannot provide everything that the Theme tags provide so I settled for a *pjax-like* method of loading new pages in HTML and swapping out content as necessary directly in the DOM.
 
 The theme code was uploaded to Tumblr, with all assets pointing to a IP address for local Javascript and Sass development. This allowed us to share the site within our Wifi network in the office, but accessing it from anywhere else would load the content but none of the assets - obviously for development all assets were minified and hosted on Tumblr.
 
