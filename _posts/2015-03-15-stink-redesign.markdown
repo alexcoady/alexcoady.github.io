@@ -40,4 +40,6 @@ parse: function ( response ) {
 };
 {% endhighlight %}
 
+Changes to these attributes (`navbarHTML`, `filterbarHTML`, `contentHTML`, and others removed for brevity) are being watched for in their respective views and updated HTML is injected into the DOM when necessary.
+
 On the server-side, the custom python back-end and CMS cache the site so that content is loaded lightening-fast.
