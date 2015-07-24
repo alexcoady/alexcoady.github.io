@@ -92,6 +92,14 @@
     padding: 1em;
     background-color: #EAEAEA;
 
+    pre {
+      overflow-x: scroll;
+
+      @media #{$mq-widerThanTablet} {
+        overflow: hidden;
+      }
+    }
+
     code {
       line-height: 1.875em;
     }
