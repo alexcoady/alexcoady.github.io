@@ -15,3 +15,5 @@ My main areas of technical expertise are:
 - HTML & CSS (Sass, Stylus, Rework)
 - Node.js sever development (Express, MongoDB/Mongoose, Jade)
 - Progressive enhancement
+
+This website was generated using [Jekyll](http://jekyllrb.com/) and [GitHub pages](https://pages.github.com/).
