@@ -42,7 +42,7 @@ layout: default
           <div class="MarkdownContent-inner">
             <p>
               {% if page.role and page.agency %}
-                Worked as <a class="Link">{{ page.role }}</a> while at <a class="Link">{{ page.agency }}</a>
+                Worked as <a class="Link">{{ page.role }}</a> while at <a target="_blank" href="{{ page.agency.url }}" class="Link">{{ page.agency.name }}</a>
               {% endif %}
             </p>
             {{ content }}

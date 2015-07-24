@@ -78,4 +78,19 @@
       list-style-position: outside;
     }
   }
+
+  .highlight {
+    margin-bottom: 1.4em;
+
+    code {
+      font-size: 0.9em;
+      line-height: 1.875em;
+    }
+  }
+
+  code {
+    font-family: monaco, monospace;
+    font-weight: 400;
+    font-size: inherit;
+  }
 }

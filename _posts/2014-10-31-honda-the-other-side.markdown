@@ -7,7 +7,9 @@ date:   2014-10-31 00:00:00
 tags: javascript film vanilla-javascript
 excerpt: An interactive film with a twist, a dark-side story that mimics the light
 role: Lead front-end developer
-agency: Stinkdigital
+agency:
+  name: Stinkdigital
+  url: http://stinkdigital.com
 ---
 
 Interactive video experience for Honda Civic Type R, allowing the user to watch a beautifully directed film with a twist - the whole film has been mimicked by the Civic Type R in a ‘dark side’ story that can be triggered by pressing the R button.

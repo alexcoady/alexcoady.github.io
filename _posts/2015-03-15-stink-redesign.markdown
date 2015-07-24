@@ -7,7 +7,9 @@ date: 2015-03-15 00:00:00
 tags: javascript film backbone
 excerpt: Building the new home of Stink
 role: Lead front-end developer
-agency: Stinkdigital
+agency:
+  name: Stinkdigital
+  url: http://stinkdigital.com
 ---
 [Stink](http://stink.co) are the film-arm of the company I work for, and the redesign of their site has been an ongoing project for the past year or so. The previous site had a separately managed version for each office, all of which were to be combined into Stink.co - the go-to site for Stink worldwide.
 
