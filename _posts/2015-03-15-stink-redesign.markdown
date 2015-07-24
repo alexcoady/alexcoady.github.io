@@ -5,7 +5,7 @@ slug: stink
 project_url: http://stink.co
 client: Stink films
 date: 2015-03-15 00:00:00
-tags: javascript film backbone
+tags: javascript backbone mobile-first single-page-app
 excerpt: Building the new home of Stink
 role: Lead front-end developer
 agency:
@@ -14,7 +14,7 @@ agency:
 ---
 [Stink](http://stink.co) are the film-arm of Stinkdigital; the redesign of their site had been an ongoing internal project for a year or so.
 
-The previous site was made from 5 totally independent websites that looked similar. The new website had to merge all these sites into one larger global site that represented all the different regions.
+The previous site was made from 5 independent websites that shared a similar look and feel. The new website had to merge all these sites into one larger global site that represented all the different regions, and become the international home of Stink.
 
 ### The tech side
 
@@ -40,6 +40,6 @@ parse: function ( response ) {
 };
 {% endhighlight %}
 
-Changes to these attributes (`navbarHTML`, `filterbarHTML`, `contentHTML`, and others removed for brevity) are being watched for in their respective views and updated HTML is injected into the DOM when necessary.
+Changes to these attributes (`navbarHTML`, `filterbarHTML`, `contentHTML`) are being watched for in their respective views and updated HTML is injected into the DOM when necessary.
 
 On the server-side, the custom python back-end and CMS cache the site so that content is loaded lightening-fast.
