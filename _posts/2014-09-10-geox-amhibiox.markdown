@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You control the weather
+title: You Control The Weather
 slug: geox
 project_url: http://amphibiox.geox.com/amphibiox2014/en_gb/
 client: Geox Amphibiox
@@ -12,3 +12,15 @@ agency:
   name: Stinkdigital
   url: http://stinkdigital.com
 ---
+
+You Control The Weather is an interactive film surrounded by a branded microsite.
+
+The film features 2 characters whose days depends on the choices in weather that the user makes. At intervals throughout the film, the user is prompted to change the weather, which in turn changes the events of the next clip of film:
+
+![Before tearing]({{ "/change.jpg" | prepend: page.slug | prepend: page.imagesrc | prepend: site.baseurl }})
+
+If the user chooses correctly, the 2 meet at the end of walk of into the distance; if they don't, they miss their opportunity. Fortunately the film can be replayed and the correct choices can be made.
+
+The site also features 360&deg; 3d models of various shoes that the user can interact with:
+
+![Before tearing]({{ "/360.jpg" | prepend: page.slug | prepend: page.imagesrc | prepend: site.baseurl }})
