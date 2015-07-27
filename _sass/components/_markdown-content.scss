@@ -112,7 +112,11 @@
     }
   }
 
-
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 
   p code {
     padding: .2em .5em;
