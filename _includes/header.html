@@ -14,7 +14,7 @@
 
           {% if nav_page.title %}
             {% assign clean_url = nav_page.url | remove: "index.html" %}
-            <a class="{% if clean_url == current_url %}is-active{% endif %}" href="{{ clean_url }}">{{nav_page.title}}</a>
+            <a class="{% if clean_url == current_url or (page.is_work and clean_url == "/" ) %}is-active{% endif %}" href="{{ clean_url }}">{{nav_page.title}}</a>
           {% endif %}
 
         {% endfor %}
