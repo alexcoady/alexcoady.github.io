@@ -28,3 +28,15 @@ When the user finds one they like, they can share it on download the file to the
 ![Sharing on facebook]({{ "/facebook.jpg" | prepend: page.slug | prepend: page.imagesrc | prepend: site.baseurl }})
 
 ### The tech side
+
+The experience is created using 3 `<canvas>` elements:
+
+1. Shows the current layer being torn away
+1. Shows the cumulative image generated so far
+1. Used to merge the layers and export the image for sharing
+
+When the user decides to share an image, the canvas is rasterised and a new window is opened. The new window submits a form that contains the image, and the form is triggered to send the image to the server.
+
+Once the server has parsed the image as the correct format, it redirects the user to appropriate URL for sharing, with the image and site url populated already.
+
+If the user has chosen to download the image instead of share, the form is submitted from the current window and the download happens on the page/tab the user is currently on.

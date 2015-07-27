@@ -69,9 +69,16 @@
     margin-bottom: 1.4em;
   }
 
+  ul {
+    list-style: disc;
+  }
+
+  ol {
+    list-style: decimal;
+  }
+
   li {
     line-height: 1.875em;
-    list-style: disc;
     list-style-position: inside;
 
     @media #{$mq-widerThanTablet} {
