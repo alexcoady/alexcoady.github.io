@@ -12,7 +12,7 @@ agency:
   name: Stinkdigital
   url: http://stinkdigital.com
 ---
-[Stink](http://stink.co) are the film-arm of Stinkdigital; the redesign of their site had been an ongoing internal project for a year or so.
+[Stink]({{ page.project_url }}) are the film-arm of Stinkdigital; the redesign of their site had been an ongoing internal project for a year or so.
 
 The previous site was made from 5 independent websites that shared a similar look and feel. The new website had to merge all these sites into one larger global site that represented all the different regions, and become the international home of Stink.
 

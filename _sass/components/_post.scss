@@ -54,3 +54,31 @@
 }
 
 .Post-content {}
+
+.Post-projectLink {
+  display: block;
+
+  padding: $spacing/2 0;
+
+  background: lighten($color-orange, 15%);
+  text-decoration: none;
+  color: $color-black;
+  transition: background 0.15s, color 0.15s;
+
+  span {
+    font-weight: 200;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    vertical-align: middle;
+
+    @media #{$mq-widerThanTablet} {
+      font-size: 1.4em;
+    }
+  }
+
+  &:hover {
+    background: lighten($color-orange, 30%);
+    background: invert($color-orange);
+    color: $color-white;
+  }
+}

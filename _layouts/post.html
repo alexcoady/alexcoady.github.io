@@ -35,7 +35,6 @@ layout: default
   </div>
 
   <div class="Post-content">
-
     <div class="Wrapper">
       <div class="Wrapper-inner">
         <div class="MarkdownContent">
@@ -50,7 +49,16 @@ layout: default
         </div>
       </div>
     </div>
-
   </div>
+
+  {% if page.project_url %}
+  <a target="_blank" href="{{ page.project_url }}" class="Post-projectLink">
+    <div class="Wrapper">
+      <div class="Wrapper-inner">
+        <span>Visit {{ page.client }}: {{ page.title }}</span>
+      </div>
+    </div>
+  </a>
+  {% endif %}
 
 </div>
