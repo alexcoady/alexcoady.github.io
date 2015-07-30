@@ -19,7 +19,7 @@ The film features 2 characters whose days depends on the choices in weather that
 
 ![Before tearing]({{ "/change.jpg" | prepend: page.slug | prepend: page.imagesrc | prepend: site.baseurl }})
 
-If the user chooses correctly, the 2 meet at the end of walk of into the distance; if they don't, they miss their opportunity. Fortunately the film can be replayed and the correct choices can be made.
+If the user chooses correctly, the couple meet at the end of walk off into the distance. If they don't, the couple miss their opportunity. Fortunately the film can be replayed and the correct choices can be made.
 
 The site also features 360&deg; 3d models of various shoes that the user can interact with:
 
