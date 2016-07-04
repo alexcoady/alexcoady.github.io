@@ -1,0 +1,26 @@
+---
+layout: post
+title:  Copa 90
+slug: copa-90
+project_url: http://copa90.com
+client: Copa 90
+date: 2016-06-01 00:00:00
+tags: javascript backbone marionette gsap es2015 babel
+excerpt: The new home of Copa 90
+role: Lead front-end developer
+agency:
+  name: Code + Theory
+  url: http://www.codeandtheory.com/
+---
+
+A brand new website for Copa 90.
+
+### The tech side
+
+The main piece of work for Copa 90 was the feed system that makes up almost every page. The homepage has 3 independent feeds, plus each article has an assigned category that is loaded in as a feed at the side. Further category and search pages also display feeds.
+
+These were managed by a model I created which was available as a singleton throughout the application. Feeds could be created, fetched, paginated and cached, meaning that after a bit of browsing around the site, none of the feeds need to be fetched from the server as everything is stored locally. This made the site super fast, and means that articles can be loaded lightening-fast based on their summary, then the descriptive text and videos can be lazily loaded when required.
+
+During development the site could be rendered on both the front-end and back-end using the same Jade templates; this meant that without Javascript, at least the main piece of content on each page would be rendered - the rest could either be enhanced using client-side templates or would be sent on the initial page load as HTML.
+
+Once the site was put into production, these templates were replicated in PHP on the server and used as-is on the client-side in Jade.

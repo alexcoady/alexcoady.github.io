@@ -10,10 +10,10 @@ I've worked at a few brilliant agencies, most recently Stinkdigital, where I've 
 
 My main areas of technical expertise are:
 
-- Vanilla Javascript (ES6)
-- Front-end frameworks (Backbone, Marionette, Angular)
-- HTML & CSS (Sass, Stylus, Rework)
-- Node.js sever development (Express, MongoDB/Mongoose, Jade)
+- Vanilla Javascript (ES2015/6)
+- Front-end frameworks (Backbone, Angular, React/Redux)
+- HTML & CSS (Sass, Stylus, Rework, BEM)
+- Node.js server development (Express, MongoDB/Mongoose, Jade)
 - Progressive enhancement
 
 This website was generated using [Jekyll](http://jekyllrb.com/) and [GitHub pages](https://pages.github.com/).

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  The Other Side
+title: The Other Side
 slug: honda
 client: Honda
-date:   2014-10-31 00:00:00
+date: 2014-10-31 00:00:00
 tags: javascript film vanilla-javascript
 excerpt: An interactive film with a twist, a dark-side story that mimics the light
 role: Lead front-end developer
