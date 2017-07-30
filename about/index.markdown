@@ -31,4 +31,4 @@ I'm a pragmatic and opinionated developer with over 7 years of commericial exper
 - Mocha
 - Chai
 
-This website was generated using [Jekyll](http://jekyllrb.com/) and [GitHub pages](https://pages.github.com/).
+This website was generated using [Jekyll](http://jekyllrb.com/) and [GitHub pages](https://pages.github.com/), what a perfect way to show off React / Redux skills ;).
