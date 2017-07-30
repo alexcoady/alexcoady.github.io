@@ -1,5 +1,6 @@
 ---
 title: Contact
+order: 2
 ---
 
 ## Say hello

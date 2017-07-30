@@ -1,5 +1,6 @@
 ---
 title: About
+order: 1
 ---
 
 ## My name's Alex, I'm a freelance Senior React / Redux developer based in London, UK.
