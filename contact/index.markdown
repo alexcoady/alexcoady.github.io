@@ -2,11 +2,11 @@
 title: Contact
 ---
 
-# Say hello
+## Say hello
 
-If you'd like to work with me, say hello here: [alex@coady.me](mailto:alex@coady.me)
+Get in touch by sending me a tweet [@{{ site.twitter_username }}](http://twitter.com/{{ site.twitter_username }}){:target="_blank"}, or via [LinkedIn](http://www.linkedin.com/in/alex-coady){:target="_blank"}.
 
-Or if you'd like to see what I've been up to, check out:
+If you'd like to see what I've been up to, check out:
 
 - Codepen: [@{{ site.codepen_username }}](http://codepen.io/{{ site.codepen_username }}){:target="_blank"}
 - GitHub: [@{{ site.github_username }}](http://github.com/{{ site.github_username }}){:target="_blank"}
